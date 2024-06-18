@@ -1,4 +1,5 @@
 function init(){
+    console.log("tafiditra")
     const coord = {
         lat: -23.942542,
         long: 46.154707
