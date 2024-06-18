@@ -10,6 +10,7 @@ function init(){
     const title = L.titleLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    })
-    carte.addTo(title);
+    });
+    
+    title.addTo(carte);
 }
